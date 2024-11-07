@@ -9,7 +9,7 @@ answer = input("Kies graden/fahrenheit")
 #verschil tussen print en print(f"") is dat je geen variabelen in de normale print kan gebruiken in vergelijking met print(f "")
 
 if answer.lower() == "graden":
-    aantalGraden = float(input ("Hoeveel graden willen we omzetten vandaag?"))
+    aantalGraden = int(input("Hoeveel graden willen we omzetten vandaag?"))
     fahrenheit = (aantalGraden * 9/5) + 32
     print (f"Het is nu {fahrenheit}")
 elif answer.lower() == "fahrenheit":
